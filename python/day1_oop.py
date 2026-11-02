@@ -36,3 +36,11 @@ b.deposit(100)
 
 print(a.get_balance())   # ждём 50
 print(b.get_balance())   # ждём 500
+
+class user:
+    def __init__(self, name, email):
+        self.name = name
+        self.email = email
+    def deactivate(self):
+        self.is_active = False
+        
